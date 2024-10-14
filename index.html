@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Boobs</title>
+</head>
+
+<body>
+    <button type="button" onclick="start()">start</button>
+    <script>
+        function start() {
+            let size = window.prompt("Select boob size :)")
+
+            console.log(size)
+            let x = `${' '.repeat(size)}`
+            let st = `(${x} . ${x})(${x} . ${x})`
+            console.log(st)
+        }
+    </script>
+</body>
+
+</html>
